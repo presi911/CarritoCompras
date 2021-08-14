@@ -1,0 +1,42 @@
+﻿@model ModelImplementation.ModelDb.ORDE
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ORDE</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ORDERNUMBER)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ORDERNUMBER)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GTOTAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GTOTAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AspNetUsers.Identification)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AspNetUsers.Identification)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

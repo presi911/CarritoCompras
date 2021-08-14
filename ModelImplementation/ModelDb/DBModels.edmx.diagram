@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0417eb9cf15f4215b9a597d397bd812c" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="ImaginamosDBModel.C__MigrationHistory" Width="1.5" PointX="8" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ImaginamosDBModel.AspNetRoles" Width="1.5" PointX="1.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ImaginamosDBModel.AspNetUserClaims" Width="1.5" PointX="5.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ImaginamosDBModel.AspNetUserLogins" Width="1.5" PointX="1.625" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ImaginamosDBModel.AspNetUsers" Width="1.5" PointX="3.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ImaginamosDBModel.CATEGORY" Width="1.5" PointX="10.375" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ImaginamosDBModel.ORDE" Width="1.5" PointX="5.625" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ImaginamosDBModel.ORDERPRODUCT" Width="1.5" PointX="7.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ImaginamosDBModel.PRODUCT" Width="1.5" PointX="9.75" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="ImaginamosDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ImaginamosDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ImaginamosDBModel.FK_ORDE_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="ImaginamosDBModel.FK__PRODUCT__CATEGOR__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="ImaginamosDBModel.FK_ORDERPRODUCT_ORDE" ManuallyRouted="false" />
+        <AssociationConnector Association="ImaginamosDBModel.FK_ORDERPRODUCT_PRODUCT" ManuallyRouted="false" />
+        <AssociationConnector Association="ImaginamosDBModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
