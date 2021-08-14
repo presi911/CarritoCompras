@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace CarritoComprasApp.Models
 {
+    //Esta parte se puede mejorar usando principios SOLID los cuales voy a implementar con productos
     // Para agregar datos de perfil del usuario, agregue más propiedades a su clase ApplicationUser. Visite https://go.microsoft.com/fwlink/?LinkID=317594 para obtener más información.
     public class ApplicationUser : IdentityUser
     {
